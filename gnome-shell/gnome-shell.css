@@ -21,7 +21,7 @@
 
 /* default text style */
 stage {
-    font-family: Aller;
+    font-family: cantarell, sans-serif;
     font-size: 10pt;
     color: white;
 }
