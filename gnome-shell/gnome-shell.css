@@ -306,10 +306,8 @@ StScrollBar StButton#hhandle:active {
     color: rgb(255,255,255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(31,155,217,0.89084507042253525);
-    background-gradient-start: rgba(31,155,217,0.89084507042253525);
-    background-gradient-end: rgba(31,155,217,0.89084507042253525);
-    border-color: rgba(31,155,217,0.89084507042253525);
+    background-color: rgba(223,37,63,0.9);
+    border-color: rgba(223,37,63,0.9);
     border-radius: 0px;
 }
 
@@ -364,7 +362,7 @@ StScrollBar StButton#hhandle:active {
 
 .popup-status-menu-item {
     font-weight: normal;
-    color: rgba(153,153,153,1.0);
+    color: white;
 }
 
 .popup-inactive-menu-item, .popup-inactive-menu-item:insensitive {
@@ -925,11 +923,7 @@ StScrollBar StButton#hhandle:active {
 .system-menu-action:focus {
     color: rgb(255,255,255);
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgba(31,155,217,0.89084507042253525);
-    background-gradient-start: rgba(31,155,217,0.89084507042253525);
-    background-gradient-end: rgba(31,155,217,0.89084507042253525);
-    border-color: rgba(31,155,217,0.89084507042253525);
+    background-color: #DF253F;
 }
 
 .system-menu-action:active {
