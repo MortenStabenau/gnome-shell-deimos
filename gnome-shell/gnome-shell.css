@@ -186,27 +186,12 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
     border-radius: 0px;
     border-width: 1px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
     -arrow-border-radius: 0px;
     -arrow-border-width: 1px;
-    /*arrow_true
-    background-color: transparent;
-    border-color: transparent;
-    -arrow-background-color: rgba(57,63,63,1.0);
-    -arrow-border-color: rgba(255,255,255,0.29999999999999999);
-    -arrow-base: 21px;
-    -arrow-rise: 9px;
-    arrow_true*/
-    /**/
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(57,63,63,1.0);
-    /**/
     background-gradient-start: rgba(57,63,63,1.0);
     background-gradient-end: rgba(57,63,63,1.0);
     border-color: rgba(255,255,255,0.29999999999999999);
@@ -214,7 +199,6 @@ StScrollBar StButton#hhandle:active {
     -arrow-border-color: transparent;
     -arrow-base: 0;
     -arrow-rise: 3px;
-    /**/
 }
 
 .popup-menu-boxpointer.fallback-app-menu {
@@ -307,12 +291,6 @@ StScrollBar StButton#hhandle:active {
 .popup-menu-item {
     spacing: 1em;
     border: 1px solid transparent;
-    /*arrow_true
-    border-left-width: 0;
-    border-right-width: 0;
-    arrow_true*/
-    /**/
-    /**/
     transition-duration: 50ms;
 }
 
@@ -332,11 +310,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-start: rgba(31,155,217,0.89084507042253525);
     background-gradient-end: rgba(31,155,217,0.89084507042253525);
     border-color: rgba(31,155,217,0.89084507042253525);
-    /*arrow_true
-    arrow_true*/
-    /**/
     border-radius: 0px;
-    /**/
 }
 
 .popup-menu-item:insensitive {
@@ -509,12 +483,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-end: rgb(57,63,63);
     border-width: 1px;
     border-color: rgba(255,255,255,0.29999999999999999);
-    /*buttonbold_true
-    font-weight: bold;
-    buttonbold_true*/
-    /**/
     font-weight: normal;
-    /**/
     transition-duration: 50ms;
 }
 
@@ -686,12 +655,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-end: rgb(57,63,63);
     border-width: 1px;
     border-color: rgba(255,255,255,0.29999999999999999);
-    /**/
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.3);
-    /**/
-    /*entryshadow_false
-    box-shadow: none;
-    entryshadow_false*/
     transition-duration: 50ms;
 }
 
@@ -708,12 +672,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-end: rgb(57,63,63);
     border-width: 1px;
     border-color: rgba(255,255,255,0.29999999999999999);
-    /**/
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.3);
-    /**/
-    /*entryshadow_false
-    box-shadow: none;
-    entryshadow_false*/
 }
 
 .login-dialog StEntry:focus,
@@ -730,12 +689,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-end: rgba(57,63,63,0.71830319676508736);
     border-width: 1px;
     border-color: rgba(100,100,100,0.3);
-    /**/
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.3);
-    /**/
-    /*entryshadow_false
-    box-shadow: none;
-    entryshadow_false*/
 }
 
 .search-entry:focus,
@@ -845,12 +799,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-button #appMenuIcon {
-    /*panelicon_true
-    panelicon_true*/
-    /**/
     height: 0;
     width: 12px;
-    /**/
     app-icon-bottom-clip: 0;
 }
 
