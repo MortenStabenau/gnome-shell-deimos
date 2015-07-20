@@ -957,12 +957,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-start: rgba(57,63,63,1.0);
     background-gradient-end: rgba(57,63,63,1.0);
     padding: 9px 7px 9px 9px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
 }
 
 .workspace-thumbnails:rtl {
@@ -1088,12 +1083,7 @@ StScrollBar StButton#hhandle:active {
     border: 1px solid rgba(255,255,255,0.29999999999999999);
     border-left: 0;
     border-radius: 0 0px 0px 0;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
 }
 
 #dash:rtl {
@@ -1310,27 +1300,12 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
     border-radius: 0px;
     border-width: 1px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
     -arrow-border-radius: 0px;
     -arrow-border-width: 1px;
-    /*arrow_true
-    background-color: transparent;
-    border-color: transparent;
-    -arrow-background-color: rgba(57,63,63,1.0);
-    -arrow-border-color: rgba(255,255,255,0.29999999999999999);
-    -arrow-base: 21px;
-    -arrow-rise: 9px;
-    arrow_true*/
-    /**/
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(57,63,63,1.0);
-    /**/
     background-gradient-start: rgba(57,63,63,1.0);
     background-gradient-end: rgba(57,63,63,1.0);
     border-color: rgba(255,255,255,0.29999999999999999);
@@ -1338,7 +1313,6 @@ StScrollBar StButton#hhandle:active {
     -arrow-border-color: transparent;
     -arrow-base: 0;
     -arrow-rise: 3px;
-    /**/
 }
 
 .app-folder-popup-bin {
@@ -1822,12 +1796,7 @@ StScrollBar StButton#hhandle:active {
     padding: 8px 8px 4px 8px;
     spacing-rows: 4px;
     spacing-columns: 10px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
 }
 
 .notification, #notification-container {
@@ -1858,28 +1827,13 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
     border-radius: 0px;
     border-width: 1px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
     -arrow-border-radius: 0px;
     -arrow-border-width: 1px;
     -boxpointer-gap: 6px;
-    /*arrow_true
-    background-color: transparent;
-    border-color: transparent;
-    -arrow-background-color: rgba(57,63,63,1.0);
-    -arrow-border-color: rgba(255,255,255,0.29999999999999999);
-    -arrow-base: 21px;
-    -arrow-rise: 9px;
-    arrow_true*/
-    /**/
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(57,63,63,1.0);
-    /**/
     background-gradient-start: rgba(57,63,63,1.0);
     background-gradient-end: rgba(57,63,63,1.0);
     border-color: rgba(255,255,255,0.29999999999999999);
@@ -1887,7 +1841,6 @@ StScrollBar StButton#hhandle:active {
     -arrow-border-color: transparent;
     -arrow-base: 0;
     -arrow-rise: 3px;
-    /**/
 }
 
 .summary-boxpointer .notification {
@@ -2313,12 +2266,7 @@ StScrollBar StButton#hhandle:active {
     padding-left: 20px;
     padding-bottom: 15px;
     padding-top: 20px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
 }
 
 .modal-dialog-button-box {
@@ -2640,12 +2588,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-end: rgba(57,63,63,1.0);
     border-color: rgba(134,134,134,0.44718309859154931);
     border-top-width: 1px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
 }
 
 .keyboard-layout {
@@ -2670,12 +2613,7 @@ StScrollBar StButton#hhandle:active {
     border-color: rgba(255,255,255,0.29999999999999999);
     border-radius: 0px;
     font-size: 14pt;
-    /*buttonbold_true
-    font-weight: bold;
-    buttonbold_true*/
-    /**/
     font-weight: normal;
-    /**/
     transition-duration: 50ms;
 }
 
@@ -2709,28 +2647,13 @@ StScrollBar StButton#hhandle:active {
     padding: 4px;
     border-radius: 0px;
     border-width: 1px;
-    /**/
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
-    /**/
-    /*dropshadow_false
-    box-shadow: none;
-    dropshadow_false*/
     -arrow-border-radius: 0px;
     -arrow-border-width: 1px;
     -boxpointer-gap: 6px;
-    /*arrow_true
-    background-color: transparent;
-    border-color: transparent;
-    -arrow-background-color: rgba(57,63,63,1.0);
-    -arrow-border-color: rgba(255,255,255,0.29999999999999999);
-    -arrow-base: 21px;
-    -arrow-rise: 9px;
-    arrow_true*/
-    /**/
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(57,63,63,1.0);
-    /**/
     background-gradient-start: rgba(57,63,63,1.0);
     background-gradient-end: rgba(57,63,63,1.0);
     border-color: rgba(255,255,255,0.29999999999999999);
@@ -2738,7 +2661,6 @@ StScrollBar StButton#hhandle:active {
     -arrow-border-color: transparent;
     -arrow-base: 0;
     -arrow-rise: 3px;
-    /**/
 }
 
 /* IBus Candidate Popup */
