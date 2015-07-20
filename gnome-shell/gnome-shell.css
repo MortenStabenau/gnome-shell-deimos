@@ -186,15 +186,12 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
     border-radius: 0px;
     border-width: 1px;
-    box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+    border-top: 0;
     -arrow-border-radius: 0px;
     -arrow-border-width: 1px;
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgba(57,63,63,1.0);
-    background-gradient-start: rgba(57,63,63,1.0);
-    background-gradient-end: rgba(57,63,63,1.0);
-    border-color: rgba(255,255,255,0.29999999999999999);
+    background-color: #333;
+    border-color: #585858;
     -arrow-background-color: transparent;
     -arrow-border-color: transparent;
     -arrow-base: 0;
