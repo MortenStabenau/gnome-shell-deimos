@@ -936,8 +936,7 @@ StScrollBar StButton#hhandle:active {
 /* Overview */
 
 #overview {
-   background: url(background1.png);
-    background-repeat: repeat;
+    background-color: rgba(51,51,51,0.3);
     spacing: 24px;
 }
 
@@ -953,9 +952,7 @@ StScrollBar StButton#hhandle:active {
     border-radius: 0px 0 0 0px;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(57,63,63,1.0);
-    background-gradient-start: rgba(57,63,63,1.0);
-    background-gradient-end: rgba(57,63,63,1.0);
+    background-color: #333;
     padding: 9px 7px 9px 9px;
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
 }
@@ -1076,13 +1073,10 @@ StScrollBar StButton#hhandle:active {
     font-size: 10pt;
     padding: 4px 0;
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgba(57,63,63,1.0);
-    background-gradient-start: rgba(57,63,63,1.0);
-    background-gradient-end: rgba(57,63,63,1.0);
+    background-color: #333;
     border: 1px solid rgba(255,255,255,0.29999999999999999);
     border-left: 0;
-    border-radius: 0 0px 0px 0;
+    border-radius: 0;
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
 }
 
@@ -2182,9 +2176,7 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(57,63,63,1.0);
-    background-gradient-start: rgba(57,63,63,1.0);
-    background-gradient-end: rgba(57,63,63,1.0);
+    background-color: #333;
     border: 1px solid rgba(255,255,255,0.3);
     border-radius: 0px;
     padding: 20px;
