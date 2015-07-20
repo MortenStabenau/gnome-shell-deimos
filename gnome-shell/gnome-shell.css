@@ -2249,10 +2249,7 @@ StScrollBar StButton#hhandle:active {
     border-radius: 0px;
     color: rgb(238,238,236);
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgba(57,63,63,1.0);
-    background-gradient-start: rgba(57,63,63,1.0);
-    background-gradient-end: rgba(57,63,63,1.0);
+    background-color: #333;
     border: 1px solid rgba(255,255,255,0.3);
     padding-right: 20px;
     padding-left: 20px;
