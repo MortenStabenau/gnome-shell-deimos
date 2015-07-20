@@ -492,11 +492,9 @@ StScrollBar StButton#hhandle:active {
 .modal-dialog-button:hover {
     color: rgb(255,255,255);
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgb(31,155,217);
-    background-gradient-start: rgb(31,155,217);
-    background-gradient-end: rgb(31,155,217);
-    border-color: rgba(255,255,255,0.29999237048905164);
+    background-image: none;
+    background-color: rgba(223,37,63,0.9);
+    border-color: rgba(223,37,63,0.9);
 }
 
 .notification-button:focus,
@@ -506,10 +504,8 @@ StScrollBar StButton#hhandle:active {
 .app-view-control:focus {
     color: rgb(238,238,236);
     background-image: none;
-    background-gradient-direction: vertical; /* rgba(223,37,63,0.9) */
-    background-gradient-start: rgba(223,37,63,0.9);
-    background-gradient-end: rgba(31,155,217,0.89083695735103385);
-    border-color: rgba(61,185,247,0.89084507042253525);
+    background-color: rgba(223,37,63,0.9);
+    border-color: rgba(223,37,63,0.9);
 }
 
 .notification-button:focus:hover,
@@ -519,11 +515,8 @@ StScrollBar StButton#hhandle:active {
 .app-view-control:focus:hover {
     color: rgb(255,255,255);
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgb(31,155,217);
-    background-gradient-start: rgba(31,155,217,0.89083695735103385);
-    background-gradient-end: rgba(223,37,63,0.9);
-    border-color: rgba(61,185,247,0.89084507042253525);
+    background-color: rgba(223,37,63,0.9);
+    border-color: rgba(223,37,63,0.9);
 }
 
 .notification-button:focus:active,
@@ -533,10 +526,8 @@ StScrollBar StButton#hhandle:active {
 .app-view-control:focus:active {
     color: rgb(255,255,255);
     background-image: none;
-    background-gradient-direction: vertical; /* rgba(223,37,63,0.9) */
-    background-gradient-start: rgba(223,37,63,0.9);
-    background-gradient-end: rgba(31,155,217,0.89083695735103385);
-    border-color: rgba(41,165,227,0.89084507042253525);
+    background-color: rgba(223,37,63,0.9);
+    border-color: rgba(223,37,63,0.9);
 }
 
 .app-view-control:focus {
@@ -558,11 +549,8 @@ StScrollBar StButton#hhandle:active {
 .app-view-control:checked {
     color: rgb(255,255,255);
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgb(31,155,217);
-    background-gradient-start: rgb(31,155,217);
-    background-gradient-end: rgb(31,155,217);
-    border-color: rgb(31,155,217);
+    background-color: rgba(223,37,63,0.9);
+    border-color: rgba(223,37,63,0.9);
 }
 
 .candidate-page-button:insensitive,
