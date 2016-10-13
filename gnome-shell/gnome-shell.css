@@ -1451,6 +1451,7 @@ StScrollBar StButton#hhandle:active {
 
 #LookingGlassDialog .notebook-tab:selected {
     border-image: none;
+    border-color: rgba(223,37,63,0.9);
     color: white;
     font-weight: bold;
 }
@@ -1625,6 +1626,12 @@ StScrollBar StButton#hhandle:active {
     background-gradient-end: rgba(223,37,63,0.9);
 }
 
+.world-clocks-header,
+.message-list-section-title,
+.message-secondary-bin {
+  color: rgb(238,238,236);
+}
+
 .calendar-day-base {
     font-size: 9pt;
     text-align: center;
@@ -1759,6 +1766,16 @@ StScrollBar StButton#hhandle:active {
     padding-right: 8pt;
 }
 
+.message-list-section-close > StIcon {
+  background-color: transparent;
+  color: rgb(238,238,236);
+}
+.message-list-section-close:hover > StIcon,
+.message-list-section-close:focus > StIcon {
+  background-color: transparent;
+  color: rgba(223,37,63,0.9);
+}
+
 /* Message Tray */
 #message-tray {
     background: #333 url(noise-texture.png);
@@ -1805,6 +1822,10 @@ StScrollBar StButton#hhandle:active {
     spacing-rows: 4px;
     spacing-columns: 10px;
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+}
+
+.notification-banner {
+  border-radius: 0px;
 }
 
 .notification, #notification-container {
