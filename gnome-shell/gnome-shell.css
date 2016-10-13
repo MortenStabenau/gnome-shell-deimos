@@ -1600,6 +1600,14 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
 }
 
+.datemenu-today-button:active,
+.datemenu-today-button:focus,
+.datemenu-today-button:hover,
+.world-clocks-button:active,
+.message-list-section-title:active, {
+  background-color: rgba(223,37,63,0.9);
+}
+
 .datemenu-date-label:active {
     background-image: none;
     background-gradient-direction: none;
@@ -1625,7 +1633,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-end: rgba(223,37,63,0.9);
 }
 
-.calendar-day-base:active {
+.calendar-day-base:active, .calendar-day-base:selected {
     color: rgb(255,255,255);
     background-image: none;
     background-gradient-direction: none;
@@ -1669,7 +1677,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-today {
-    color: rgba(223,37,63,0.9);
+    color: rgb(238,238,236);
     text-shadow: 0 0 transparent;
     font-weight: bold;
 }
