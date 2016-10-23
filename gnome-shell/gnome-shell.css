@@ -2242,7 +2242,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Tile previews */
 .tile-preview {
-    background-color: rgba(31,155,217,0.3);
+    background-color: rgba(57,63,63,0.6);
     border: 1px solid rgba(223,37,63,0.9); /* theme selected bg color */
 }
 
