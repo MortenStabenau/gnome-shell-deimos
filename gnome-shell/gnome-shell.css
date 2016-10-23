@@ -18,14 +18,6 @@
  */
 
 /* Text Styles */
-
-/* default text style */
-stage {
-    font-family: cantarell, sans-serif;
-    font-size: 10pt;
-    color: white;
-}
-
 /* links */
 .shell-link {
     color: #0000ff;
@@ -2333,27 +2325,6 @@ StScrollBar StButton#hhandle:active {
 }
 
 /* End Session Dialog */
-.end-session-dialog {
-    spacing: 42px;
-}
-
-.end-session-dialog-list {
-    padding-top: 20px;
-}
-
-.end-session-dialog-layout {
-    padding-left: 17px;
-}
-
-.end-session-dialog-layout:rtl {
-    padding-right: 17px;
-}
-
-.end-session-dialog-description {
-    width: 28em;
-    padding-bottom: 10px;
-}
-
 .end-session-dialog-description:rtl {
     width: 28em;
     padding-bottom: 10px;
