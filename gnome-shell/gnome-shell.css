@@ -486,6 +486,23 @@ StScrollBar StButton#hhandle:active {
     border-color: rgba(223,37,63,0.9);
 }
 
+.modal-dialog-linked-button{
+  border: 1px solid rgba(255,255,255,0.3);
+  background-color: #333;
+  box-shadow: none;
+}
+
+.modal-dialog-linked-button:first-child:last-child,
+.modal-dialog-linked-button:first-child,
+.modal-dialog-linked-button:last-child{
+  border-radius: 0;
+}
+
+.modal-dialog-linked-button:focus{
+  background-color: #df253f;
+  color: #FFF;
+}
+
 .notification-button:focus,
 .notification-icon-button:focus,
 .hotplug-notification-item:focus,
@@ -898,7 +915,7 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
     border-radius: 32px; /* wish we could do 50% */
     padding: 13px;
-    border: 1px solid rgba(255,255,255,0.29999999999999999); /* using rgba() is flaky unfortunately */
+    border: none;
 }
 
 .system-menu-action:hover,
