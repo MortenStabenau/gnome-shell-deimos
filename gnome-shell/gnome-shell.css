@@ -487,20 +487,21 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog-linked-button{
-  border: 1px solid rgba(255,255,255,0.3);
-  background-color: #333;
-  box-shadow: none;
+    border: 1px solid #707070;
+    border-right-width: 0;
+    background-color: #333;
+    box-shadow: none;
 }
 
 .modal-dialog-linked-button:first-child:last-child,
 .modal-dialog-linked-button:first-child,
 .modal-dialog-linked-button:last-child{
-  border-radius: 0;
+    border-radius: 0;
 }
 
 .modal-dialog-linked-button:focus{
-  background-color: #df253f;
-  color: #FFF;
+    background-color: #df253f;
+    color: #FFF;
 }
 
 .notification-button:focus,
@@ -786,8 +787,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-logo-icon {
-  padding-right: .4em;
-  icon-size: 1em;
+    padding-right: .4em;
+    icon-size: 1em;
 }
 
 .panel-button #appMenuIcon {
@@ -826,7 +827,7 @@ StScrollBar StButton#hhandle:active {
 
 #panel .panel-button:active, #panel .panel-button:overview,
 #panel .panel-button:focus, #panel .panel-button:checked {
-  box-shadow: inset 0 -2px 0px rgba(223,37,63,0.9);
+    box-shadow: inset 0 -2px 0px rgba(223,37,63,0.9);
 }
 
 #panel.unlock-screen .panel-button:hover,
@@ -1298,7 +1299,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-well-app-running-dot {
-  background-color: rgba(223,37,63,0.9);
+    background-color: rgba(223,37,63,0.9);
 }
 
 .search-provider-icon {
@@ -1624,7 +1625,7 @@ StScrollBar StButton#hhandle:active {
 .datemenu-today-button:hover,
 .world-clocks-button:active,
 .message-list-section-title:active, {
-  background-color: rgba(223,37,63,0.9);
+    background-color: rgba(223,37,63,0.9);
 }
 
 .datemenu-date-label:active {
@@ -1638,7 +1639,7 @@ StScrollBar StButton#hhandle:active {
 .world-clocks-header,
 .message-list-section-title,
 .message-secondary-bin {
-  color: rgb(238,238,236);
+    color: rgb(238,238,236);
 }
 
 .calendar-day-base {
@@ -1776,13 +1777,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .message-list-section-close > StIcon {
-  background-color: transparent;
-  color: rgb(238,238,236);
+    background-color: transparent;
+    color: rgb(238,238,236);
 }
 .message-list-section-close:hover > StIcon,
 .message-list-section-close:focus > StIcon {
-  background-color: transparent;
-  color: rgba(223,37,63,0.9);
+    background-color: transparent;
+    color: rgba(223,37,63,0.9);
 }
 
 /* Message Tray */
@@ -1834,7 +1835,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .notification-banner {
-  border-radius: 0px;
+    border-radius: 0px;
 }
 
 .notification, #notification-container {
