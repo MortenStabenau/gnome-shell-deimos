@@ -920,21 +920,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .system-menu-action:hover,
+.system-menu-action:active,
 .system-menu-action:focus {
     color: rgb(255,255,255);
     background-image: none;
     background-color: #DF253F;
-}
-
-.system-menu-action:active {
-    color: rgb(255,255,255);
-    background-image: none;
-    background-gradient-direction: none;
-    background-color: rgba(223,37,63,0.9);
-    background-gradient-start: rgba(223,37,63,0.9);
-    background-gradient-end: rgba(223,37,63,0.9);
-    border-color: rgba(223,37,63,0.9);
-
 }
 
 .system-menu-action > StIcon {
@@ -2877,34 +2867,9 @@ StScrollBar StButton#hhandle:active {
     padding: 2px 17px;
 }
 
-.login-dialog .modal-dialog-button:default {
-    color: rgb(238,238,236);
-    background-image: none;
-    background-gradient-direction: vertical; /* rgba(223,37,63,0.9) */
-    background-gradient-start: rgba(223,37,63,0.9);
-    background-gradient-end: rgba(31,155,217,0.89083695735103385);
-    border-color: rgba(61,185,247,0.89084507042253525);
-}
-
-.login-dialog .modal-dialog-button:default:focus {
-    color: rgb(255,255,255);
-    background-image: none;
-    background-gradient-direction: vertical; /* rgba(31,155,217,0.89083695735103385) */
-    background-gradient-start: rgba(31,155,217,0.89083695735103385);
-    background-gradient-end: rgba(223,37,63,0.9);
-    border-color: rgba(61,185,247,0.89084507042253525);
-}
-
-.login-dialog .modal-dialog-button:default:hover {
-    color: rgb(255,255,255);
-    background-image: none;
-    background-gradient-direction: none;
-    background-color: rgb(31,155,217);
-    background-gradient-start: rgb(31,155,217);
-    background-gradient-end: rgb(31,155,217);
-    border-color: rgba(255,255,255,0.29999237048905164);
-}
-
+.login-dialog .modal-dialog-button:default,
+.login-dialog .modal-dialog-button:default:focus,
+.login-dialog .modal-dialog-button:default:hover,
 .login-dialog .modal-dialog-button:default:active,
 .login-dialog .modal-dialog-button:default:pressed {
     color: rgb(255,255,255);
@@ -2935,9 +2900,6 @@ StScrollBar StButton#hhandle:active {
 .login-dialog-message-hint {
     padding-top: 0px;
     padding-bottom: 20px;
-}
-
-.user-widget-label {
 }
 
 .user-widget-label:ltr {
