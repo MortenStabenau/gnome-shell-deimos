@@ -499,6 +499,10 @@ StScrollBar StButton#hhandle:active {
     border-radius: 0;
 }
 
+.modal-dialog-linked-button:last-child{
+    border-right-width: 1px;
+}
+
 .modal-dialog-linked-button:focus{
     background-color: #df253f;
     color: #FFF;
@@ -916,7 +920,7 @@ StScrollBar StButton#hhandle:active {
     color: rgb(238,238,236);
     border-radius: 32px; /* wish we could do 50% */
     padding: 13px;
-    border: none;
+    border: 1px solid #707070;
 }
 
 .system-menu-action:hover,
@@ -925,6 +929,7 @@ StScrollBar StButton#hhandle:active {
     color: rgb(255,255,255);
     background-image: none;
     background-color: #DF253F;
+    border-color: #DF253F;
 }
 
 .system-menu-action > StIcon {
