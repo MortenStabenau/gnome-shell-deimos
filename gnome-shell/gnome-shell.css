@@ -458,6 +458,8 @@ StScrollBar StButton#hhandle:active {
 
 .candidate-page-button,
 .notification-button,
+.notification-button:active,
+.notification-button:focus,
 .notification-icon-button,
 .hotplug-notification-item,
 .modal-dialog-button,
@@ -466,8 +468,6 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
     background-color: rgb(57,63,63);
-    background-gradient-start: rgb(57,63,63);
-    background-gradient-end: rgb(57,63,63);
     border-width: 1px;
     border-color: rgba(255,255,255,0.29999999999999999);
     font-weight: normal;
@@ -508,7 +508,6 @@ StScrollBar StButton#hhandle:active {
     color: #FFF;
 }
 
-.notification-button:focus,
 .notification-icon-button:focus,
 .hotplug-notification-item:focus,
 .modal-dialog-button:focus,
@@ -552,7 +551,6 @@ StScrollBar StButton#hhandle:active {
 
 .candidate-page-button:active,
 .candidate-page-button:pressed,
-.notification-button:active,
 .notification-icon-button:active,
 .hotplug-notification-item:active,
 .modal-dialog-button:active,
@@ -1810,13 +1808,13 @@ StScrollBar StButton#hhandle:active {
 
 .notification {
     color: rgb(238,238,236);
-    border-radius: 0px 0px 0 0;
+    border-radius: 0;
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(57,63,63,1.0);
     background-gradient-start: rgba(57,63,63,1.0);
     background-gradient-end: rgba(57,63,63,1.0);
-    border: 1px solid rgba(255,255,255,0.29999999999999999);
+    border: 1px solid rgba(255,255,255,0.3);
     border-bottom: 0;
     padding: 8px 8px 4px 8px;
     spacing-rows: 4px;
@@ -1917,17 +1915,19 @@ StScrollBar StButton#hhandle:active {
 }
 
 .notification-actions {
-    padding-top: 18px;
-    spacing: 10px;
+    padding-top: 0;
+    spacing: 0;
 }
 
 .notification-button {
     -st-natural-width: 140px;
     border-radius: 0px;
     padding: 4px 42px 5px;
+    border-right-width: 0;
 }
 
-.notification-button:focus {
+.notification-button:last-child {
+    border-right-width: 1px;
 }
 
 .notification-icon-button {
