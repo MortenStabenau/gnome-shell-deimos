@@ -780,11 +780,6 @@ StScrollBar StButton#hhandle:active {
     -panel-corner-border-color: transparent;
 }
 
-#appMenu {
-    spinner-image: url("process-working.svg");
-    spacing: 4px;
-}
-
 /* used for the app menu header only */
 .label-shadow {
     color: transparent;
