@@ -17,6 +17,11 @@
  * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+/* Colors */
+$highlight: #df253f;
+$fontcolor: #ececee;
+$background: #333;
+
 /* Text Styles */
 /* links */
 
@@ -161,14 +166,14 @@ StScrollBar {
 }
 
 .popup-menu-boxpointer, .candidate-popup-boxpointer {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   border-radius: 0px;
   border-width: 1px;
   border-top: 0;
   -arrow-border-radius: 0px;
   -arrow-border-width: 1px;
   background-image: none;
-  background-color: #333;
+  background-color: $background;
   border-color: #585858;
   -arrow-background-color: transparent;
   -arrow-border-color: transparent;
@@ -210,7 +215,7 @@ StScrollBar {
   }
 
   &.dark .popup-submenu-menu-item:open {
-    background-color: #333333;
+    background-color: $background;
   }
 }
 
@@ -290,8 +295,8 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
     border-radius: 0px;
   }
 
@@ -355,10 +360,10 @@ StScrollBar {
 }
 
 .popup-inactive-menu-item {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 
   &:insensitive {
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
   }
 }
 
@@ -384,7 +389,7 @@ StScrollBar {
 .toggle-switch-us:checked, .toggle-switch-intl:checked {
   background-image: url("toggle-on.png");
   background-size: contain;
-  background-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
 }
 
 /* Network */
@@ -460,7 +465,7 @@ StScrollBar {
 /* Buttons */
 
 .candidate-page-button {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -471,7 +476,7 @@ StScrollBar {
 }
 
 .notification-button {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -481,7 +486,7 @@ StScrollBar {
   transition-duration: 50ms;
 
   &:active, &:focus {
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
     background-image: none;
     background-gradient-direction: none;
     background-color: rgb(57, 63, 63);
@@ -493,7 +498,7 @@ StScrollBar {
 }
 
 .notification-icon-button, .hotplug-notification-item, .modal-dialog-button, .app-view-control {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -507,14 +512,14 @@ StScrollBar {
   color: rgb(255, 255, 255);
   background-image: none;
   background-image: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
 }
 
 .modal-dialog-linked-button {
   border: 1px solid #707070;
   border-right-width: 0;
-  background-color: #333;
+  background-color: $background;
   box-shadow: none;
 
   &:first-child {
@@ -531,23 +536,23 @@ StScrollBar {
   }
 
   &:focus {
-    background-color: #df253f;
+    background-color: $highlight;
     color: #FFF;
   }
 }
 
 .notification-icon-button:focus, .hotplug-notification-item:focus, .modal-dialog-button:focus, .app-view-control:focus {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
 }
 
 .notification-button:focus:hover, .notification-icon-button:focus:hover, .hotplug-notification-item:focus:hover, .modal-dialog-button:focus:hover, .app-view-control:focus:hover, .notification-button:focus:active, .notification-icon-button:focus:active, .hotplug-notification-item:focus:active, .modal-dialog-button:focus:active {
   color: rgb(255, 255, 255);
   background-image: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
 }
 
 .app-view-control {
@@ -555,8 +560,8 @@ StScrollBar {
     &:active {
       color: rgb(255, 255, 255);
       background-image: none;
-      background-color: rgba(223, 37, 63, 0.9);
-      border-color: rgba(223, 37, 63, 0.9);
+      background-color: rgba($highlight, 0.9);
+      border-color: rgba($highlight, 0.9);
     }
 
     padding: 3px;
@@ -571,32 +576,32 @@ StScrollBar {
   &:active, &:pressed {
     color: rgb(255, 255, 255);
     background-image: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
   }
 }
 
 .notification-icon-button:active, .hotplug-notification-item:active {
   color: rgb(255, 255, 255);
   background-image: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
 }
 
 .modal-dialog-button {
   &:active, &:pressed {
     color: rgb(255, 255, 255);
     background-image: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
   }
 }
 
 .app-view-control:checked {
   color: rgb(255, 255, 255);
   background-image: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
 }
 
 .candidate-page-button:insensitive, .notification-button:insensitive, .notification-icon-button:insensitive, .modal-dialog-button:insensitive {
@@ -612,13 +617,13 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
   }
 
   > .button-icon {
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
   }
 
   &:hover > .button-icon {
@@ -662,13 +667,13 @@ StScrollBar {
   font-size: 10pt;
   caret-color: #666;
   caret-size: 1px;
-  selection-background-color: rgba(223, 37, 63, 0.9);
+  selection-background-color: rgba($highlight, 0.9);
   selected-color: rgb(255, 255, 255);
   padding: 5px 12px 6px;
 }
 
 .search-entry, .login-dialog StEntry, .run-dialog-entry, .notification StEntry {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -682,7 +687,7 @@ StScrollBar {
 
 .search-entry {
   &:focus, &:hover {
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
     background-image: none;
     background-gradient-direction: none;
     background-color: rgb(57, 63, 63);
@@ -695,7 +700,7 @@ StScrollBar {
 }
 
 .login-dialog StEntry:focus, .notification StEntry:focus, .modal-dialog StEntry {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -755,8 +760,8 @@ StScrollBar {
 /* Panel */
 
 #panel {
-  color: rgb(238, 238, 236);
-  background-color: #333;
+  color: $fontcolor;
+  background-color: $background;
   border-color: rgba(134, 134, 134, 0.45);
   border-bottom-width: 1px;
   font-weight: bold;
@@ -839,7 +844,7 @@ StScrollBar {
 .panel-button {
   -natural-hpadding: 12px;
   -minimum-hpadding: 6px;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   font-weight: bold;
   border: 1px solid transparent;
   border-top-width: 0;
@@ -854,7 +859,7 @@ StScrollBar {
 
   .panel-button {
     &:active, &:overview, &:focus, &:checked {
-      box-shadow: inset 0 -2px 0px rgba(223, 37, 63, 0.9);
+      box-shadow: inset 0 -2px 0px rgba($highlight, 0.9);
     }
   }
 
@@ -879,7 +884,7 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
     background-gradient-start: rgba(0, 0, 0, 0.3);
     background-gradient-end: rgba(0, 0, 0, 0.3);
     border-color: inset 0 0 3px rgba(0, 0, 0, 0.6);
@@ -893,10 +898,10 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
   }
 }
 
@@ -933,7 +938,7 @@ StScrollBar {
 }
 
 .system-menu-action {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   border-radius: 32px;
 
   /* wish we could do 50% */
@@ -943,8 +948,8 @@ StScrollBar {
   &:hover, &:active, &:focus {
     color: rgb(255, 255, 255);
     background-image: none;
-    background-color: #DF253F;
-    border-color: #DF253F;
+    background-color: $highlight;
+    border-color: $highlight;
   }
 
   > StIcon {
@@ -977,7 +982,7 @@ StScrollBar {
   border-radius: 0px 0 0 0px;
   background-image: none;
   background-gradient-direction: none;
-  background-color: #333;
+  background-color: $background;
   padding: 9px 7px 9px 9px;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
 
@@ -990,14 +995,14 @@ StScrollBar {
 }
 
 .workspace-thumbnail-indicator {
-  border: 2px solid rgba(223, 37, 63, 0.9);
+  border: 2px solid rgba($highlight, 0.9);
   border-radius: 0px;
   padding: 1px;
 }
 
 .window-caption {
   spacing: 25px;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -1016,7 +1021,7 @@ StScrollBar {
 .window-close, .notification-close {
   background-image: url("close-window.svg");
   background-size: 28px;
-  background-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
   border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 16px;
   height: 28px;
@@ -1028,7 +1033,7 @@ StScrollBar {
 }
 
 .window-clone-border {
-  border: 2px solid rgba(223, 37, 63, 0.9);
+  border: 2px solid rgba($highlight, 0.9);
   border-radius: 0px;
 }
 
@@ -1094,11 +1099,11 @@ StScrollBar {
 /* Dash */
 
 #dash {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   font-size: 10pt;
   padding: 4px 0;
   background-image: none;
-  background-color: #333;
+  background-color: $background;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-left: 0;
   border-radius: 0;
@@ -1186,7 +1191,7 @@ StScrollBar {
 }
 
 .dash-label {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -1306,7 +1311,7 @@ StScrollBar {
 }
 
 .app-well-app-running-dot {
-  background-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
 }
 
 .search-provider-icon {
@@ -1314,7 +1319,7 @@ StScrollBar {
 }
 
 .app-folder-popup {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   border-radius: 0px;
   border-width: 1px;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
@@ -1348,7 +1353,7 @@ StScrollBar {
   }
 
   &.app-folder > .overview-icon {
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(57, 63, 63, 1);
@@ -1362,10 +1367,10 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
     text-shadow: 0 0 transparent;
     transition-duration: 50ms;
   }
@@ -1375,10 +1380,10 @@ StScrollBar {
   color: rgb(255, 255, 255);
   background-image: none;
   background-gradient-direction: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  background-gradient-start: rgba(223, 37, 63, 0.9);
-  background-gradient-end: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  background-gradient-start: rgba($highlight, 0.9);
+  background-gradient-end: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
   text-shadow: 0 0 transparent;
   transition-duration: 50ms;
 }
@@ -1396,7 +1401,7 @@ StScrollBar {
 }
 
 .show-apps-icon {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 }
 
 .show-apps:hover .show-apps-icon {
@@ -1408,10 +1413,10 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
     box-shadow: none;
     transition-duration: 50ms;
   }
@@ -1422,10 +1427,10 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
     box-shadow: none;
     transition-duration: 50ms;
   }
@@ -1435,10 +1440,10 @@ StScrollBar {
   color: rgb(255, 255, 255);
   background-image: none;
   background-gradient-direction: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  background-gradient-start: rgba(223, 37, 63, 0.9);
-  background-gradient-end: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  background-gradient-start: rgba($highlight, 0.9);
+  background-gradient-end: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
   box-shadow: none;
   transition-duration: 50ms;
 }
@@ -1454,10 +1459,10 @@ StScrollBar {
   color: rgb(255, 255, 255);
   background-image: none;
   background-gradient-direction: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  background-gradient-start: rgba(223, 37, 63, 0.9);
-  background-gradient-end: rgba(223, 37, 63, 0.9);
-  border-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  background-gradient-start: rgba($highlight, 0.9);
+  background-gradient-end: rgba($highlight, 0.9);
+  border-color: rgba($highlight, 0.9);
 }
 
 /* LookingGlass */
@@ -1491,7 +1496,7 @@ StScrollBar {
 
     &:selected {
       border-image: none;
-      border-color: rgba(223, 37, 63, 0.9);
+      border-color: rgba($highlight, 0.9);
       color: white;
       font-weight: bold;
     }
@@ -1499,7 +1504,7 @@ StScrollBar {
 }
 
 .lg-dialog StEntry {
-  selection-background-color: rgba(223, 37, 63, 0.9);
+  selection-background-color: rgba($highlight, 0.9);
   selected-color: rgb(255, 255, 255);
 }
 
@@ -1589,14 +1594,14 @@ StScrollBar {
 }
 
 .calendar-month-label {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   font-size: 10pt;
   font-weight: bold;
   padding-bottom: 8px;
   padding-top: 8px;
 
   &:focus {
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
   }
 }
 
@@ -1644,33 +1649,33 @@ StScrollBar {
   padding: .4em 1.7em;
   font-weight: bold;
   text-align: center;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 
   &:hover, &:focus {
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
   }
 }
 
 .datemenu-today-button {
   &:active, &:focus, &:hover {
-    background-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
   }
 }
 
 .world-clocks-button:active, .message-list-section-title:active {
-  background-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
 }
 
 .datemenu-date-label:active {
   background-image: none;
   background-gradient-direction: none;
-  background-color: rgba(223, 37, 63, 0.9);
-  background-gradient-start: rgba(223, 37, 63, 0.9);
-  background-gradient-end: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
+  background-gradient-start: rgba($highlight, 0.9);
+  background-gradient-end: rgba($highlight, 0.9);
 }
 
 .world-clocks-header, .message-list-section-title, .message-secondary-bin {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 }
 
 .calendar-day-base {
@@ -1683,28 +1688,28 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
   }
 }
 
 .calendar-day-heading {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   padding-top: .2em;
   height: 1.7em;
 }
 
 .calendar-week-number {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   font-weight: bold;
 }
 
 /* Hack used in lieu of border-collapse - see calendar.js */
 
 .calendar-day {
-  border: 1px solid #333;
-  color: rgb(238, 238, 236);
+  border: 1px solid $background;
+  color: $fontcolor;
   border-top-width: 0;
   border-left-width: 0;
 }
@@ -1724,14 +1729,14 @@ StScrollBar {
 }
 
 .calendar-today {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   text-shadow: 0 0 transparent;
   font-weight: bold;
 }
 
 .calendar-day-with-events {
   font-weight: bold;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 }
 
 .calendar-other-month-day {
@@ -1754,7 +1759,7 @@ StScrollBar {
 
 .events-day-header {
   font-weight: bold;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   padding-left: 0.4em;
   padding-top: 1.2em;
 
@@ -1769,7 +1774,7 @@ StScrollBar {
 }
 
 .events-day-dayname {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   text-align: left;
   min-width: 20px;
 
@@ -1779,7 +1784,7 @@ StScrollBar {
 }
 
 .events-day-time {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   text-align: right;
 
   &:rtl {
@@ -1788,7 +1793,7 @@ StScrollBar {
 }
 
 .events-day-task {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   padding-left: 8pt;
 
   &:rtl {
@@ -1800,19 +1805,19 @@ StScrollBar {
 .message-list-section-close {
   > StIcon {
     background-color: transparent;
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
   }
 
   &:hover > StIcon, &:focus > StIcon {
     background-color: transparent;
-    color: rgba(223, 37, 63, 0.9);
+    color: rgba($highlight, 0.9);
   }
 }
 
 /* Message Tray */
 
 #message-tray {
-  background: #333 url(noise-texture.png);
+  background: $background url(noise-texture.png);
   background-repeat: repeat;
   transition-duration: 50ms;
   height: 72px;
@@ -1843,7 +1848,7 @@ StScrollBar {
 }
 
 .notification {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   border-radius: 0;
   background-image: none;
   background-gradient-direction: none;
@@ -1888,7 +1893,7 @@ StScrollBar {
 }
 
 .summary-boxpointer {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   border-radius: 0px;
   border-width: 1px;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
@@ -2007,7 +2012,7 @@ StScrollBar {
 }
 
 .hotplug-resident-mount {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   spacing: 8px;
   border-radius: 0px;
   transition-duration: 50ms;
@@ -2016,10 +2021,10 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
   }
 }
 
@@ -2040,7 +2045,7 @@ StScrollBar {
 .hotplug-resident-eject-button {
   padding: 7px;
   border-radius: 0px;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 }
 
 .chat-log-message {
@@ -2062,7 +2067,7 @@ StScrollBar {
 
 .chat-sent {
   padding-left: 18pt;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 
   &:rtl {
     padding-left: 0;
@@ -2110,10 +2115,10 @@ StScrollBar {
     color: rgb(255, 255, 255);
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(223, 37, 63, 0.9);
-    background-gradient-start: rgba(223, 37, 63, 0.9);
-    background-gradient-end: rgba(223, 37, 63, 0.9);
-    border-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
+    background-gradient-start: rgba($highlight, 0.9);
+    background-gradient-end: rgba($highlight, 0.9);
+    border-color: rgba($highlight, 0.9);
   }
 
   &:focus .summary-source, &:selected .summary-source {
@@ -2133,7 +2138,7 @@ StScrollBar {
 .summary-source-counter {
   color: rgb(255, 255, 255);
   background-image: none;
-  background-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
   border: 2px solid rgb(255, 255, 255);
   border-radius: 2.1em;
   font-size: 10pt;
@@ -2154,7 +2159,7 @@ StScrollBar {
   .level {
     height: 0.6em;
     border-radius: 0.3em;
-    color: rgb(238, 238, 236);
+    color: $fontcolor;
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(57, 63, 63, 1);
@@ -2171,7 +2176,7 @@ StScrollBar {
 }
 
 .osd-window, .switcher-list {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgba(57, 63, 63, 1);
@@ -2193,15 +2198,15 @@ StScrollBar {
 
     &:outlined {
       padding: 6px;
-      border: 1px solid rgba(223, 37, 63, 0.9);
+      border: 1px solid rgba($highlight, 0.9);
     }
 
     &:selected {
       color: rgb(255, 255, 255);
       background-image: none;
       background-gradient-direction: none;
-      background-color: rgba(223, 37, 63, 0.9);
-      border-color: rgba(223, 37, 63, 0.9);
+      background-color: rgba($highlight, 0.9);
+      border-color: rgba($highlight, 0.9);
     }
   }
 
@@ -2237,7 +2242,7 @@ StScrollBar {
 
   &:highlighted {
     border-color: transparent;
-    color: rgba(223, 37, 63, 0.9);
+    color: rgba($highlight, 0.9);
   }
 }
 
@@ -2248,10 +2253,10 @@ StScrollBar {
 }
 
 .workspace-switcher-container {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
-  background-color: #333;
+  background-color: $background;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 0px;
   padding: 20px;
@@ -2268,7 +2273,7 @@ StScrollBar {
 .ws-switcher-active-up {
   height: 100px;
   border: 0;
-  background-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
   background-image: url("ws-switch-arrow-up.png");
   border-radius: 0px;
 }
@@ -2276,7 +2281,7 @@ StScrollBar {
 .ws-switcher-active-down {
   height: 100px;
   border: 0;
-  background-color: rgba(223, 37, 63, 0.9);
+  background-color: rgba($highlight, 0.9);
   background-image: url("ws-switch-arrow-down.png");
   border-radius: 0px;
 }
@@ -2292,7 +2297,7 @@ StScrollBar {
 
 .tile-preview {
   background-color: rgba(57, 63, 63, 0.6);
-  border: 1px solid rgba(223, 37, 63, 0.9);
+  border: 1px solid rgba($highlight, 0.9);
 
   /* theme selected bg color */
 }
@@ -2309,14 +2314,14 @@ StScrollBar {
 .show-processes-dialog-subject, .mount-question-dialog-subject, .end-session-dialog-subject {
   font-size: 12pt;
   font-weight: bold;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 }
 
 .modal-dialog {
   border-radius: 0px;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
-  background-color: #333;
+  background-color: $background;
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding-right: 20px;
   padding-left: 20px;
@@ -2341,7 +2346,7 @@ StScrollBar {
 /* Run Dialog */
 
 .run-dialog-label {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   font-size: 10pt;
   font-weight: bold;
   padding-bottom: .3em;
@@ -2536,7 +2541,7 @@ StScrollBar {
 .prompt-dialog-headline {
   font-size: 12pt;
   font-weight: bold;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
 }
 
 .prompt-dialog-description:rtl {
@@ -2634,7 +2639,7 @@ StScrollBar {
 .keyboard-key {
   min-height: 30px;
   min-width: 30px;
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   background-image: none;
   background-gradient-direction: none;
   background-color: rgb(57, 63, 63);
@@ -2673,7 +2678,7 @@ StScrollBar {
 }
 
 .keyboard-subkeys {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   padding: 4px;
   border-radius: 0px;
   border-width: 1px;
@@ -2701,7 +2706,7 @@ StScrollBar {
 }
 
 .candidate-index {
-  color: rgb(238, 238, 236);
+  color: $fontcolor;
   padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
@@ -2711,7 +2716,7 @@ StScrollBar {
   &:selected, &:hover {
     border-radius: 0px;
     color: rgb(255, 255, 255);
-    background-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
   }
 }
 
@@ -2748,7 +2753,7 @@ StScrollBar {
   background-size: contain;
 
   &:hover {
-    border: 1px solid rgba(223, 37, 63, 0.9);
+    border: 1px solid rgba($highlight, 0.9);
   }
 }
 
@@ -2800,7 +2805,7 @@ StScrollBar {
 .login-dialog-user-list:expanded .login-dialog-user-list-item {
   &:focus {
     color: rgb(255, 255, 255);
-    background-color: rgba(223, 37, 63, 0.9);
+    background-color: rgba($highlight, 0.9);
   }
 
   &:logged-in {
@@ -2897,7 +2902,7 @@ StScrollBar {
       background-gradient-direction: vertical;
 
       /* rgba(223,37,63,0.9) */
-      background-gradient-start: rgba(223, 37, 63, 0.9);
+      background-gradient-start: rgba($highlight, 0.9);
       background-gradient-end: rgba(31, 155, 217, 0.89084);
       border-color: rgba(41, 165, 227, 0.89085);
 
@@ -2907,7 +2912,7 @@ StScrollBar {
         background-gradient-direction: vertical;
 
         /* rgba(223,37,63,0.9) */
-        background-gradient-start: rgba(223, 37, 63, 0.9);
+        background-gradient-start: rgba($highlight, 0.9);
         background-gradient-end: rgba(31, 155, 217, 0.89084);
         border-color: rgba(41, 165, 227, 0.89085);
       }
