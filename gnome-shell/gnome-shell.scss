@@ -22,6 +22,9 @@ $highlight: #df253f;
 $fontcolor: #ececee;
 $background: #333;
 
+/* Arch variable */
+$arch: false !default;
+
 /* Text Styles */
 /* links */
 
@@ -839,6 +842,16 @@ StScrollBar {
 .app-menu-icon {
   width: 24px;
   height: 24px;
+}
+
+@if $arch {
+  #panelActivities {
+    font-size: 0;
+    width: 60px;
+    background-image: url("arch.svg");
+    background-size: 20px 20px;
+    background-position: 50% 50%;
+  }
 }
 
 .panel-button {
