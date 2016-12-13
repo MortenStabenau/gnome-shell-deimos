@@ -1,0 +1,15 @@
+#!/bin/bash
+TARGET=`pwd`/gnome-shell/gnome-shell.css
+if [ $(uname -r | rev | cut -d '-' -f 1 | rev) == 'ARCH' ] || \
+  ([ ! -z $1 ] && [ $1 == 'arch' ]);
+then
+  SOURCE=`pwd`/gnome-shell/gnome-shell-arch.scss
+else
+  SOURCE=`pwd`/gnome-shell/gnome-shell.scss
+fi
+
+if [ ! -z $1 ] && [ $1 == 'watch' ]; then
+  sass --watch $SOURCE:$TARGET
+else
+  sass $SOURCE $TARGET
+fi
