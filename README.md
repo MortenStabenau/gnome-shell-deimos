@@ -8,7 +8,17 @@ More Screenshots: [1](/screenshots/screenshot1.png?raw=true)
 [3](/screenshots/screenshot3.png?raw=true)
 
 ## Installation
-Download the [latest release](/releases/latest) or build it yourself.
+1. Download the [latest
+release](https://github.com/MortenStabenau/gnome-shell-deimos/releases/latest).
+There are two versions of this theme: the Arch Linux version and the default
+one. The only difference is the small Arch icon in the top left, which does not
+exist in the default version.
+2. Extract the .zip to your .themes folder.
+3. Install and enable the User Themes shell extension.
+4. Use the gnome-tweak-tool to enable the theme (Appearance/Shell Theme)
+
+If you do not want to use the provided zip files, you can also build this theme
+yourself.
 
 ## Building
 You will need to have SASS installed. Then you can run: `./compile`
