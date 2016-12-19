@@ -12,3 +12,9 @@ Download the [latest release](/releases/latest) or build it yourself.
 
 ## Building
 You will need to have SASS installed. Then you can run: `./compile`
+
+## Thanks
+This theme is based on [zukitre by
+lassekongo83](https://github.com/lassekongo83/zuki-themes). It uses the Arch
+Linux logo extracted from the official [Art
+page](https://www.archlinux.org/art/).
