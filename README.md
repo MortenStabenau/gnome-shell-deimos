@@ -27,4 +27,6 @@ You will need to have SASS installed. Then you can run: `./compile`
 This theme is based on [zukitre by
 lassekongo83](https://github.com/lassekongo83/zuki-themes). It uses the Arch
 Linux logo extracted from the official [Art
-page](https://www.archlinux.org/art/).
+page](https://www.archlinux.org/art/). The wallpaper is used in the screenshots
+was taken from [this reddit
+thread](https://https://www.reddit.com/r/EarthPorn/comments/59wvle/winter_came_early_to_vermont_oc2760x1833/).
