@@ -1,3 +1,4 @@
 gnome-shell/gnome-shell.css
 .sass-cache/
 *.map
+out/

@@ -1,0 +1,5 @@
+#!/bin/bash
+./compile default
+zip -r out/gnome-shell-deimos-1.0.0.zip . -x .git**\* .gitignore **\*.sass-cache**\* screenshots**\* out**\*
+./compile arch
+zip -r out/gnome-shell-deimos-1.0.0-arch.zip . -x .git**\* .gitignore **\*.sass-cache**\* screenshots**\* out**\*
