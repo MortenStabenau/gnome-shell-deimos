@@ -8,9 +8,19 @@ if [[ ! $PATH == *ruby* ]] && type ruby >/dev/null 2>&1; then
 fi
 
 # Determine, if the arch version of theme should be compiled
-if [ $(uname -r | rev | cut -d '-' -f 1 | rev) == 'ARCH' ] || \
-  ([ ! -z $1 ] && [ $1 == 'arch' ]);
-then
+if [ -z $1 ] || [ $1 == 'watch' ]; then
+  # Auto-determine version
+  if [ $(uname -r | rev | cut -d '-' -f 1 | rev) == 'ARCH' ]; then
+    version='arch'
+  else
+    version='default'
+  fi
+else
+  version=$1
+fi
+
+
+if [ $version == 'arch' ]; then
   SOURCE=`pwd`/gnome-shell/gnome-shell-arch.scss
 else
   SOURCE=`pwd`/gnome-shell/gnome-shell.scss
