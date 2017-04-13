@@ -2608,6 +2608,12 @@ StScrollBar {
   height: 48px;
 }
 
+/* Audio selection dialog */
+.audio-selection-device:active, .audio-selection-device:hover,
+.audio-selection-device:focus {
+  background-color: $highlight;
+}
+
 /* Network Agent Dialog */
 
 .network-dialog-secret-table, .keyring-dialog-control-table {
