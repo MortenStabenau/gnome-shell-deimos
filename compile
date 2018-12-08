@@ -28,7 +28,10 @@ fi
 
 # Compile or watch
 if [ ! -z $1 ] && [ $1 == 'watch' ]; then
-  sass --watch $SOURCE:$TARGET
+  find . -name \*.scss | entr ./compile reload
+elif [ ! -z $1 ] && [ $1 == 'reload' ]; then
+  sass $SOURCE $TARGET
+  gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval 'Main.loadTheme();'
 else
   sass $SOURCE $TARGET
 fi
