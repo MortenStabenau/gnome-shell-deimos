@@ -1031,9 +1031,11 @@ StScrollBar {
 .window-close, .notification-close {
   background-image: url("close-window.svg");
   background-size: 28px;
-  background-color: rgba($highlight, 0.9);
-  border: 2px solid rgba(255, 255, 255, 1);
+  background-color: rgba($highlight, 1.0);
+  border: 2px solid white;
   border-radius: 16px;
+  box-shadow: none;
+  color: white;
   height: 28px;
   width: 28px;
 }
