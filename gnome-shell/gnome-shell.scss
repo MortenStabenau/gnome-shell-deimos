@@ -771,6 +771,9 @@ StScrollBar {
   &.unlock-screen, &.login-screen {
     background-color: transparent;
   }
+  .panel-button.clock-display:active .clock {
+    box-shadow: none;
+  }
 }
 
 #panelLeft, #panelCenter {
