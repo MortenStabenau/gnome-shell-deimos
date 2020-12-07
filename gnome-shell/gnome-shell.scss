@@ -847,7 +847,6 @@ StScrollBar {
 @if $arch {
   #panelActivities {
     font-size: 0;
-    width: 60px;
     background-image: url("arch.svg");
     background-size: 18px 18px;
     background-position: 50% 50%;
@@ -1595,7 +1594,6 @@ StScrollBar {
 }
 
 /* Calendar popup */
-
 .calendar-vertical-separator {
   -stipple-width: 1px;
   -stipple-color: #666;
@@ -3096,11 +3094,4 @@ StScrollBar {
   font-size: 34pt;
   width: 96px;
   height: 96px;
-}
-
-/* Background menu */
-
-.background-menu {
-  -boxpointer-gap: 4px;
-  -arrow-rise: 0px;
 }
