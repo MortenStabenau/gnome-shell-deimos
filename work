@@ -1,0 +1,4 @@
+#!/bin/bash
+original=/usr/share/gnome-shell/theme/gnome-classic.css
+mine=gnome-shell/gnome-shell.scss
+vim $original $mine -c "vert sb2"
